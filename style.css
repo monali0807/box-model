@@ -1,0 +1,85 @@
+/* class name always starts with dot(.) symbol */
+.heading{
+    color: red;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+/* Box Model
+        border => (6px solid red) this shows thickness,  style, colour
+        margin
+        padding
+*/
+
+.card{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid lightgray;
+    width: 500px;
+    /* padding: 12px; */
+    margin: 80px auto;
+    border-radius: 16px;
+    text-align: left;
+    font-size: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    /* padding: 20px; */
+    padding: 16px 36px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.user{
+    height: 200px;
+    border-radius: 50%;
+}
+input{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-size: 17px;
+}
+.small{
+    font-size: 13px;
+    color: gray;
+}
+.color{
+    color: gray;
+}
+.color2{
+    color: blue;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 10px 36px;
+    margin: 24px;
+}
+.fs{
+    font-weight: 400;
+    margin: 16px;
+}
+.topbtn{
+    position: relative;
+}
+.tag{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    color: black;
+    padding: 6px 24px;
+    border-radius: 20px;
+    margin: 25px 25px auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
